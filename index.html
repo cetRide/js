@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+<script>
+    class Person {
+        constructor() {
+            var name;
+            var age;
+            var sex;
+
+        }
+        getName() {
+            return this.name;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+        getAge() {
+            return this.age
+        }
+        setAge(age) {
+            this.age = age;
+        }
+        getSex() {
+            return this.sex;
+        }
+        setSex(sex) {
+            this.sex = sex;
+        }
+    }
+    var student = new Person();
+    student.setName("Cetric");
+    student.setAge("23");
+    student.setSex("Male");
+    function printStudent() {
+        document.writeln(student.getName() + "" + student.getAge() + "" + student.getSex());
+    }
+    function greetFriend(){
+        alert("Hello everyone am Cetric and I want to take you through Leadership presentation");
+    }
+    printStudent();
+    greetFriend();
+</script>
+
+<body>
+<div>
+    
+</div>
+</body>
+
+</html>
